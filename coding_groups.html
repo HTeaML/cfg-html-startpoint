@@ -42,45 +42,84 @@
         </nav>
         <!--END NAV-->
     <div class="container">
-        <div class="checkbox">
-            <label><input type="checkbox" value="shef">Sheffield</label>
-        </div>
-        <div class="checkbox">
-            <label><input type="checkbox" value="r">R</label>
-        </div>
-        <div class="checkbox">
-            <label><input type="checkbox" value="py">Python</label>
-        </div>
-        <div class="checkbox">
-            <label><input type="checkbox" value="js">JavaScript</label>
-        </div>
-        <div class="checkbox">
-            <label><input type="checkbox" value="uni">University based</label>
-        </div>
-        <div class="checkbox">
-            <label><input type="checkbox" value="2week">Fortnightly meetings</label>
-        </div>
-        <div class="checkbox">
-            <label><input type="checkbox" value="week">Weekly meetings</label>
-        </div>
-        <div class="checkbox">
-            <label><input type="checkbox" value="month">Monthly meetings</label>
-        </div>
-        <div class="checkbox">
-            <label><input type="checkbox" value="tue">Tuesday</label>
-        </div>
-        <div class="checkbox">
-            <label><input type="checkbox" value="women">Women only</label>
-        </div>
-        <div class="checkbox">
-            <label><input type="checkbox" value="course">Coding course</label>
-        </div>
-        <div class="checkbox">
-            <label><input type="checkbox" value="web">Web development</label>
-        </div>
+        <p>Select what events you want to see:</p> 
+        <div class='row'>
+            <div class='col-sm-4'>
+                <div class="checkbox">
+                    <label><input type="checkbox" value="show">Show all</label>
+                </div>
+                <p>Coding Language:</p>
+                <div class="checkbox">
+                    <label><input type="checkbox" value="r">R</label>
+                </div>
+                <div class="checkbox">
+                    <label><input type="checkbox" value="py">Python</label>
+                </div>
+                <div class="checkbox">
+                    <label><input type="checkbox" value="js">JavaScript</label>
+                </div>
+                <div class="checkbox">
+                    <label><input type="checkbox" value="ruby">Ruby</label>
+                </div>
+                <div class="checkbox">
+                    <label><input type="checkbox" value="php">PHP</label>
+                </div>
+                <div class="checkbox">
+                    <label><input type="checkbox" value="other_lang">Other</label>
+                </div>
+            </div>
+            <div class='col-sm-4'>
+                <p>Frequency:</p>
+                <div class="checkbox">
+                    <label><input type="checkbox" value="2week">Fortnightly meetings</label>
+                </div>
+                <div class="checkbox">
+                    <label><input type="checkbox" value="week">Weekly meetings</label>
+                </div>
+                <div class="checkbox">
+                    <label><input type="checkbox" value="month">Monthly meetings</label>
+                </div>
+                <div class="checkbox">
+                    <label><input type="checkbox" value="notreg">Not regular</label>
+                </div>
+
+                <p>Day:</p>
+                <div class="checkbox">
+                    <label><input type="checkbox" value="tue">Tuesday</label>
+                </div>
+                <div class="checkbox">
+                    <label><input type="checkbox" value="thu">Thursday</label>
+                </div>
+            </div>
+            <div class='col-sm-4'>
+                <p>Area:</p>
+                <div class="checkbox">
+                    <label><input type="checkbox" value="shef">Sheffield</label>
+                </div>
+                <div class="checkbox">
+                    <label><input type="checkbox" value="wshef">Wider Sheffield</label>
+                </div>
+                <p>Other:</p>
+                <div class="checkbox">
+                    <label><input type="checkbox" value="uni">University based</label>
+                </div>
+                <div class="checkbox">
+                    <label><input type="checkbox" value="women">Women only</label>
+                </div>
+                <div class="checkbox">
+                    <label><input type="checkbox" value="course">Coding course</label>
+                </div>
+                <div class="checkbox">
+                    <label><input type="checkbox" value="web">Web development</label>
+                </div>
+                <div class="checkbox">
+                    <label><input type="checkbox" value="hack">Hackathon</label>
+                </div>
+            </div>
+        </div>    
 
 
-        <div class= "show py shef uni 2week">
+        <div class= "show py shef uni 2week thu">
             <h3>University Python Club</h3>
             <li class="info">Twitter:<a href="https://www.twitter.com/python_club_">@python_club_</a></li>
             <li class="info">Facebook:<a href="https://www.facebook.com/UoSPythonClub/">UoS Python Club</a></li>
@@ -104,11 +143,11 @@
             <li class="info">Twitter:<a href="https://twitter.com/djangogirlsshef">@djangogirlsshef</a></li>
             <li class="info">Website:<a href="https://djangogirls.org/sheffield/">Django Girls</a></li>
         </div>
-        <div class= "show shef">
+        <div class= "show shef other_lang">
             <h3>Data for Good</h3>
             <li class="info">Meet up website:<a href="https://www.meetup.com/Sheffield-Data-for-Good">Sheffield Data for Good</a></li>
         </div>
-        <div class= "show shef">
+        <div class= "show shef other_lang">
             <h3>Sheffield Tech4Good (potentially same as above)</h3>
             <li class="info">Twitter:<a href="https://twitter.com/shefftech4good">@shefftech4good</a></li>
         </div>
@@ -143,7 +182,7 @@
             <h3>Sheffield JavaScript</h3>
             <li class="info">Twitter:<a href="https://twitter.com/sheffield_js">@sheffield_js</a></li>
         </div>
-        <div class= "show web">
+        <div class= "show web php">
             <h3>Sheffield PHP</h3>
             <li class="info">Twitter:<a href="https://twitter.com/SheffieldPHP">@SheffieldPHP</a></li>
             <li class="info">Website:<a href="https://www.sheffieldphp.co.uk/">Sheffield PHP</a></li> 
@@ -152,7 +191,7 @@
             <h3>Sheffield Test Gathering</h3>
             <li class="info">Meet up website:<a href="https://www.meetup.com/Sheffield-Test-Gathering/">Sheffield Test Gathering</a></li>
         </div>
-        <div class= "show web">
+        <div class= "show web notreg">
             <h3>Digital North</h3>
             <li class="info">Meet up website:<a href="https://www.meetup.com/Digital_North_/">Digital North</a></li>
         </div>
@@ -164,7 +203,7 @@
             <h3>WordPress Sheffield</h3>
             <li class="info">Meet up website:<a href="https://www.meetup.com/wpsheffield/">WordPress Sheffield</a></li> 
         </div>
-        <div class= "show shef">
+        <div class= "show shef other_lang">
             <h3>Google Sheffield Garage</h3>
             <li class="info">Website:<a href="g.co/sheffieldgarage">Google Sheffield Garage</a></li>
         </div>
