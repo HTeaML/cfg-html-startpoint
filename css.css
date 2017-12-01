@@ -1,11 +1,13 @@
 body {
 	background-color: #e0e0e0;
+	font-family: 'Exo 2', sans-serif;
 }
 h2 {
-	color: #ffb300;
+	color: white;
+	font-family: 'Exo 2', sans-serif;
 }
 .typewriter {
-	min-height: 250px;
+	min-height: 325px;
 	width:100%;
 	background-image: url("images/typewriter_retro.jpg");
 	background-size: cover;
