@@ -12,3 +12,7 @@ h2 {
 	background-attachment: fixed;
 }
 
+.highlight {
+    background-color: #ffb300;
+    font-weight: bold;
+}
