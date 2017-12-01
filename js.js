@@ -1,4 +1,13 @@
 $(document).ready(function() {
+
+	var classHighlight = 'highlight';
+	var $hover = $('h3').on('hover', function(){
+		e.preventDefault();
+		$hover.removeClass(classHighlight);
+		$(this).addClass(classHighlight);
+	})
+
+
 	$('.show').hide();
 	$('.show').children().hide();
 
