@@ -1,6 +1,16 @@
 $(document).ready(function() {
 	$('.show').hide();
 	$('.show').children().hide();
+
+	/*define groups of filters*/
+	var groups = ['lang', 'freq', 'day', 'area', 'other']
+	var lang = ['py', 'r', 'ruby', 'js', 'php', 'other_lang'];
+	var freq = ['2week', 'week', 'month', 'notreg'];
+	var day = ['tue', 'thu'];
+	var area = ['shef', 'wshef'];
+	var other = ['uni', 'women', 'course', 'web', 'hack'];
+
+	/*show all if the checkbox is checked*/
 	$('input:checkbox').change(function(){
 		if ($(this).is(':checked')) {
 			if ($(this).val() == 'show') {
@@ -8,6 +18,8 @@ $(document).ready(function() {
 			}
 		}
 	})
+
+	/*show/hide the info if the name of the group is clicked*/
 	$('.info').hide();
 	$('.show').on('click', function(){
 		var list = $(this).find('.info');
@@ -18,6 +30,7 @@ $(document).ready(function() {
 		}
 	});
 
+	/*show if box is checked*/
 	$('input:checkbox').change(function(){
 		$('.show').hide();
 		if ($(this).is(':checked')) {
@@ -26,6 +39,8 @@ $(document).ready(function() {
 			$(val).children().show()
 		}
 	});	
+
+	/*hide if box is unchedked*/
 	$('input:checkbox').change(function(){	 
 		if (!$(this).is(':checked')) {
 			var val = '.'+ $(this).val();
@@ -33,3 +48,4 @@ $(document).ready(function() {
 		}
 	});
 })
+
