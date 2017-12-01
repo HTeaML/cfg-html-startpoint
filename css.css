@@ -5,7 +5,8 @@ h2 {
 	color: #ffb300;
 }
 .typewriter {
-	min-height: 200px;
+	min-height: 250px;
+	width:100%;
 	background-image: url("images/typewriter_retro.jpg");
 	background-size: cover;
 	background-attachment: fixed;
