@@ -5,6 +5,7 @@ body {
 h2 {
 	color: white;
 	font-family: 'Exo 2', sans-serif;
+	background-color:#ffb300;
 }
 .typewriter {
 	min-height: 325px;
