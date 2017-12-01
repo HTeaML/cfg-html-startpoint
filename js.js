@@ -3,7 +3,7 @@ $(document).ready(function() {
 	$('.show').children().hide();
 
 	/*define groups of filters*/
-	var groups = ['lang', 'freq', 'day', 'area', 'other']
+	var groups = ['lang', 'freq', 'day', 'area', 'other'];
 	var lang = ['py', 'r', 'ruby', 'js', 'php', 'other_lang'];
 	var freq = ['2week', 'week', 'month', 'notreg'];
 	var day = ['tue', 'thu'];
@@ -19,7 +19,7 @@ $(document).ready(function() {
 		}
 	})
 
-	/*show/hide the info if the name of the group is clicked*/
+	/*show and hide the group-detail if the name of the group is clicked*/
 	$('.info').hide();
 	$('.show').on('click', function(){
 		var list = $(this).find('.info');
