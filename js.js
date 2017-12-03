@@ -1,12 +1,11 @@
 $(document).ready(function() {
 
 	var classHighlight = 'highlight';
-	var $hover = $('h3').on('hover', function(){
+	var $hover = $('h3').hover(function(e){
 		e.preventDefault();
 		$hover.removeClass(classHighlight);
 		$(this).addClass(classHighlight);
 	})
-
 
 	$('.show').hide();
 	$('.show').children().hide();
@@ -30,8 +29,8 @@ $(document).ready(function() {
 
 	/*show and hide the group-detail if the name of the group is clicked*/
 	$('.info').hide();
-	$('.show').on('click', function(){
-		var list = $(this).find('.info');
+	$('h3').on('click', function(){
+		var list = $(this).siblings('.info');
 		if ( $(list).css('display') == 'none') {
 			$(list).show();
 		} else {
