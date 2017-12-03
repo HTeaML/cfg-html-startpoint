@@ -9,7 +9,7 @@
 
 <body>
 	<div class="jumbotron">
-        <div class="container">
+        <div class="container typewriter">
   			<h2>Contact Us</h2>
   		</div>
   		
@@ -42,18 +42,29 @@
             </div> <!-- /.container-fluid -->
         </nav>
         <!--END NAV-->
-<div class="form-group"> 
+
+<div class="container">        
+<div class='row'>        
+<div class="form-group col-xs-4 col-md-offset-4"> 
   <label for="usr">Name:</label>
-  <input type="text" class="form-control" placeholder=JaneSmith@email.com id="usr"> 
+  <input type="text" class="form-control" placeholder=jane_smith@email.com id="usr"> 
 </div> 
-<div class="form-group">
+</div>
+<div class='row'>  
+<div class="form-group col-xs-4 col-md-offset-4">
   <label for="eml">Email:</label>
   <input type="email" class="form-control" placeholder="Jane Smith" id="eml">
 </div>
-<div class="form-group">
+</div>
+<div class='row'>  
+<div class="form-group col-xs-4 col-md-offset-4">
   <label for="msg">Message:</label>
-  <input type="text" class="form-control" id="msg"><br />
-  <input type="submit">
+  <textarea class="form-control" rows="3" id="msg" type="text" placeholder="Hi girls!
+We just love #ShefTechWomen! We want to..."></textarea><br />
+  <button class="btn btn-warning" type="submit">Submit</button>
+
+</div>
+</div>
 </div>
   	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
   	<script src="./js.js"></script>
