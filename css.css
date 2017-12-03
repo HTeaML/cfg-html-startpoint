@@ -5,8 +5,16 @@ body {
 h2 {
 	color: white;
 	font-family: 'Exo 2', sans-serif;
-	background-color:#ffb300;
+	background-color:#f4ab00;
+	width: 100%;
+	margin-top: 300px;
+	margin-right: auto;
+	margin-left: -20px;
+	line-height: 30px;
+	padding-left: 20px;	
+	padding-right: 100px;
 }
+
 .typewriter {
 	min-height: 325px;
 	width:100%;
@@ -19,3 +27,4 @@ h2 {
     background-color: #ffb300;
     font-weight: bold;
 }
+
