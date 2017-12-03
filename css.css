@@ -13,6 +13,16 @@ h2 {
 	padding: 0px 50px 0px 20px;
 	box-sizing: border-box;
 	padding-left: 118px;
+	background-color:#f4ab00;
+	width: 100%;
+	margin-top: 300px;
+	margin-right: auto;
+	margin-left: -20px;
+	line-height: 30px;
+	padding-left: 50px;	
+	padding-right: 100px;
+	padding-bottom: 5px;
+	padding-top: 5px;
 }
 
 .typewriter {
@@ -32,3 +42,16 @@ h2 {
     font-weight: bold;
 }
 
+.btn {
+	font-weight: bold;
+	color: black;
+	background-color: #ffb300;
+}
+
+input {
+	min-width: 250px;
+}
+
+textarea {
+	min-width: 250px;
+}
