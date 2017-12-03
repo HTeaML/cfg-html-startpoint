@@ -11,12 +11,11 @@ h2 {
 	margin-right: auto;
 	margin-left: -20px;
 	line-height: 30px;
-	padding-left: 20px;	
+	padding-left: 50px;	
 	padding-right: 100px;
 	padding-bottom: 5px;
 	padding-top: 5px;
 }
-
 .typewriter {
 	min-height: 325px;
 	width:100%;
@@ -24,7 +23,6 @@ h2 {
 	background-size: cover;
 	background-attachment: fixed;
 }
-
 .highlight {
     background-color: #ffb300;
     font-weight: bold;
@@ -37,5 +35,9 @@ h2 {
 }
 
 input {
+	min-width: 250px;
+}
+
+textarea {
 	min-width: 250px;
 }
