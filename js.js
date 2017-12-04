@@ -1,7 +1,7 @@
 $(document).ready(function() {
 
     var classHighlight = 'highlight';
-    var $hover = $('h3').hover(function(e){
+    var $hover = $('.group').hover(function(e){
         e.preventDefault();
         $hover.removeClass(classHighlight);
         $(this).addClass(classHighlight);
