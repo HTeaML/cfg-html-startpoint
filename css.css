@@ -1,6 +1,13 @@
 html {
-	cursor: url("images/Cursor.png"), auto;
+	cursor: url("images/test_finger.png");
 }
+
+/*li{
+	list-style-type:square;
+ 	list-style-position:inside;
+ 	list-style-image:url("images/Cursor.png");
+}*/
+
 body {
 	background-color: #e0e0e0;
 	font-family: 'Exo 2', sans-serif;
