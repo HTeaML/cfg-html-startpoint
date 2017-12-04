@@ -2,6 +2,7 @@ body {
 	background-color: #e0e0e0;
 	font-family: 'Exo 2', sans-serif;
 }
+
 h2 {
 	color: white;
 	font-family: 'Exo 2', sans-serif;
@@ -16,12 +17,24 @@ h2 {
 	padding-left: 118px;
 }
 
+p {
+	font-size: 5px;
+}
+
 .typewriter {
 	min-height: 325px;
 	width:100%;
 	background-image: url("images/typewriter_retro.jpg");
 	background-size: cover;
 	background-attachment: fixed;
+}
+
+.col-sm-4 {
+	max-width: 100%;
+	height: auto;
+	display: block;
+	border-radius: 30%;
+
 }
 
 .highlight {
