@@ -71,12 +71,9 @@ h5 {
 	background-color: #ffb300;
 }
 
-.show {
-	text-align: left;
-}
-
-ul.orange-dots {
-	list-style-type: circle;
+ul.bullet-points {
+	list-style-image: url("images/Orange-Bullets.png");
+	width: 20px;
 }
 
 img {
