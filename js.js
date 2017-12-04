@@ -21,6 +21,14 @@ $(document).ready(function() {
         }
     });
 
+    /*show all if the checkbox is checked*/
+/*    $('input:checkbox').change(function(){
+        if ($(this).is(':checked')) {
+            if ($(this).val() == 'show') {
+                $('.show').hide();
+            }
+        }
+    })*/
 
     /*show if box is checked*/
 /*    $('input:checkbox').change(function(){
@@ -85,16 +93,6 @@ $(document).ready(function() {
             });
         });
         $('.show').children().hide().filter($filteredResults).children().show();
-    });
-
-
-        /*show all if the checkbox is checked*/
-    $('input:checkbox').change(function(){
-        if ($(this).is(':checked')) {
-            if ($(this).val() == 'show') {
-                $('.show').hide();
-            }
-        }
     });
 });
 

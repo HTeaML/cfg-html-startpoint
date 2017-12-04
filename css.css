@@ -1,3 +1,6 @@
+html {
+	cursor: url("images/Cursor.png"), auto;
+}
 body {
 	background-color: #e0e0e0;
 	font-family: 'Exo 2', sans-serif;
@@ -34,6 +37,10 @@ h2 {
 	color: black;
 	background-color: #ffb300;
 }
+/*img {
+	max-height: 400px;
+	max-width: 400px;
+}*/
 
 input {
 	min-width: 250px;
