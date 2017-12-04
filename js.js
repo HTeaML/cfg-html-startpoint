@@ -22,23 +22,6 @@ $(document).ready(function() {
     });
 
 
-    /*define groups of filters*/
-/*    var groups = ['lang', 'freq', 'day', 'area', 'other'];
-    var lang = ['py', 'r', 'ruby', 'js', 'php', 'other_lang'];
-    var freq = ['2week', 'week', 'month', 'notreg'];
-    var day = ['tue', 'thu'];
-    var area = ['shef', 'wshef'];
-    var other = ['uni', 'women', 'course', 'web', 'hack'];*/
-
-    /*show all if the checkbox is checked*/
-/*    $('input:checkbox').change(function(){
-        if ($(this).is(':checked')) {
-            if ($(this).val() == 'show') {
-                $('.show').hide();
-            }
-        }
-    })*/
-
     /*show if box is checked*/
 /*    $('input:checkbox').change(function(){
         $('.show').hide();
@@ -57,53 +40,62 @@ $(document).ready(function() {
         }
     });*/
 
-var $filterCheckboxes = $('input[type="checkbox"]');
-$filterCheckboxes.on('change', function() {
+/*filtering on many groups*/
+/*from: https://stackoverflow.com/questions/35011034/jquery-filtering-with-multiple-checkboxes*/
+    var $filterCheckboxes = $('input[type="checkbox"]');
+    $filterCheckboxes.on('change', function() {
 
-  var selectedFilters = {};
-  $filterCheckboxes.filter(':checked').each(function() {
+        var selectedFilters = {};
+        $filterCheckboxes.filter(':checked').each(function() {
 
-    if (!selectedFilters.hasOwnProperty(this.name)) {
-      selectedFilters[this.name] = [];
-    }
+            if (!selectedFilters.hasOwnProperty(this.name)) {
+              selectedFilters[this.name] = [];
+            }
 
-    selectedFilters[this.name].push(this.value);
-  });
+            selectedFilters[this.name].push(this.value);
+        });
 
-  // create a collection containing all of the filterable elements
-  var $filteredResults = $('.show');
-  // loop over the selected filter name -> (array) values pairs
-  $.each(selectedFilters, function(name, filterValues) {
+        // create a collection containing all of the filterable elements
+        var $filteredResults = $('.show');
+        // loop over the selected filter name -> (array) values pairs
+        $.each(selectedFilters, function(name, filterValues) {
 
-    // filter each .flower element
-    $filteredResults = $filteredResults.filter(function() {
+        // filter each .show element
+            $filteredResults = $filteredResults.filter(function() {
 
-      var matched = false,
-        currentFilterValues = $(this).data('category').split(' ');
+                var matched = false, 
+                currentFilterValues = $(this).data('category').split(' ');
 
-      // loop over each category value in the current .flower's data-category
-      $.each(currentFilterValues, function(_, currentFilterValue) {
+                // loop over each category value in the current .show's data-category
+                $.each(currentFilterValues, function(_, currentFilterValue) {
 
-        // if the current category exists in the selected filters array
-        // set matched to true, and stop looping. as we're ORing in each
-        // set of filters, we only need to match once
+                // if the current category exists in the selected filters array
+                // set matched to true, and stop looping. as we're ORing in each
+                // set of filters, we only need to match once
 
-        if ($.inArray(currentFilterValue, filterValues) != -1) {
-          matched = true;
-          return false;
-        }
-      });
+                    if ($.inArray(currentFilterValue, filterValues) != -1) {
+                        matched = true;
+                        return false;
+                }
+                });
 
-      // if matched is true the current .flower element is returned
-      return matched;
+                // if matched is true the current .show element is returned
+                return matched;
 
+            });
+        });
+        $('.show').children().hide().filter($filteredResults).children().show();
     });
-});
 
 
-  $('.show').hide().filter($filteredResults).show();
-
-});
+        /*show all if the checkbox is checked*/
+    $('input:checkbox').change(function(){
+        if ($(this).is(':checked')) {
+            if ($(this).val() == 'show') {
+                $('.show').hide();
+            }
+        }
+    });
 });
 
 
