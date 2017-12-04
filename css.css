@@ -19,7 +19,7 @@ label {
 }
 
 a {
-	color: #eca303;
+	color: #e8a404;
 }
 
 h2 {
@@ -78,6 +78,7 @@ h5 {
 .highlight {
     background-color: #ffb300;
     font-weight: bold;
+    padding: 2px 0px 2px 3px;
 }
 
 .btn {
