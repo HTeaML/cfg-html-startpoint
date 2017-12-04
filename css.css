@@ -16,10 +16,15 @@ body {
 
 label {
 	font-family: 'Open Sans', sans-serif;
+	padding-top: : 10px;
 }
 
 a {
 	color: #e8a404;
+}
+
+p {
+	padding: 10px 0px 10px 0px;
 }
 
 h2 {
@@ -47,7 +52,7 @@ h3.our-names {
 h4 {
 	text-align: center;
 	font-size: 25px;
-	padding: 50px 20px 50px 20px;
+	padding: 30px 20px 30px 20px;
 	color: rgb(244, 171, 0);
 }
 
@@ -56,6 +61,8 @@ h5 {
 	color: #424242;
 	font-size: 15px;
 }
+
+
 
 .typewriter {
 	min-height: 325px;
@@ -103,3 +110,14 @@ input {
 textarea {
 	min-width: 250px;
 }
+
+#gif {
+	padding: 10px 10px 10px 10px;
+	display: block;
+    margin: 0 auto;
+}
+
+.contact {
+	padding: 2% 2% 2% 2%;
+}
+
