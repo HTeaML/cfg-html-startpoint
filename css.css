@@ -1,16 +1,25 @@
 html {
-	cursor: url("images/test_finger.png");
+	cursor: url("images/Cursor_Orange.png");
 }
 
-/*li{
+li {
 	list-style-type:square;
  	list-style-position:inside;
- 	list-style-image:url("images/Cursor.png");
-}*/
+ 	list-style-image:url("images/Orange-Bullets.png");
+ 	font-family: 'Exo 2', sans-serif;
+}
 
 body {
 	background-color: #e0e0e0;
 	font-family: 'Exo 2', sans-serif;
+}
+
+label {
+	font-family: 'Exo 2', sans-serif;
+}
+
+a {
+	color: #eca303;
 }
 
 h2 {
@@ -75,11 +84,6 @@ h5 {
 	font-weight: bold;
 	color: black;
 	background-color: #ffb300;
-}
-
-ul.bullet-points {
-	list-style-image: url("images/Orange-Bullets.png");
-	width: 20px;
 }
 
 img {
