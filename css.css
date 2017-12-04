@@ -32,11 +32,9 @@ p {
 	background-attachment: fixed;
 }
 
-.col-sm-4 {
-	max-width: 100%;
-	height: auto;
-	display: block;
-	border-radius: 30%;
+.new-class {
+	font-family: 'Open Sans', sans-serif; 
+	font-size: 15px;
 
 }
 
