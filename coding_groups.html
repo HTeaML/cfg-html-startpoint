@@ -45,9 +45,9 @@
         <p>Select what groups you want to see:</p> 
         <div class='row'>
             <div class='col-sm-4'>
-                <div class="checkbox">
+<!--                 <div class="checkbox">
                     <label><input type="checkbox" name="show" value="show">Show all</label>
-                </div>
+                </div> -->
                 <div class="lang">
                     <p>Coding Language:</p>
                     <div class="checkbox">
@@ -125,27 +125,28 @@
                     </div>
                 </div>
             </div>
-        </div>    
+        </div>
+       
 
-        <div class="groups">
+        <div class="container show" id="groups" data-category="show">
             <div class= "show" data-category="py shef uni 2week thu">
                 <h3>University Python Club</h3>
                 <li class="info">Twitter:<a href="https://www.twitter.com/python_club_">@python_club_</a></li>
                 <li class="info">Facebook:<a href="https://www.facebook.com/UoSPythonClub/">UoS Python Club</a></li>
                 <li class="info">University website:<a href="https://groups.google.com/a/sheffield.ac.uk/forum/#!forum/pgpythonclub-group">UoS page</a></li>
-                <li class="info">Meeting:Thursday afternoon every 2 weeks</a></li>
-                <li class="info">About:Post graduate and early researcher python club</a></li>
-            </div>
+                <li class="info">Meeting:Thursday afternoon every 2 weeks</li>
+                <li class="info">About:Post graduate and early researcher python club</li>
+            </div>    
             <div class= "show" data-category="py shef month tue">
                 <h3>Python Sheffield</h3>
-                    <li class="info">Twitter:<a href="https://twitter.com/pysheff">@pysheff</a></li>
+                <li class="info">Twitter:<a href="https://twitter.com/pysheff">@pysheff</a></li>
             </div>
             <div class= "show" data-category="r tue month uni shef">
                 <h3>Sheffield R</h3>
                 <li class="info">Twitter:<a href="https://twitter.com/Sheffield_R_">@Sheffield_R_</a></li>
                 <li class="info">Meet up website:<a href="https://www.meetup.com/SheffieldR-Sheffield-R-Users-Group/">SheffieldR - Sheffield R Users Group</a></li>
             </div>
-            <div class= "show shef women week course web py js">       
+            <div class= "show" data-category="shef women week course web py js">
                 <h3>Code First Girls</h3>
                 <li class="info">Website:<a href="https://shefcodefirst.herokuapp.com/">Shef Code First</a></li>
             </div>
@@ -221,7 +222,8 @@
             <div class= "show" data-category="wshef notreg">
                 <h3>Product Tank Yorkshire</h3>
                 <li class="info">Twitter:<a href="https://twitter.com/ProdTankYorks">@ProdTankYorks</a></li>
-             <div class= "show" data-category="">
+            </div>    
+            <div class= "show" data-category="">
                 <h3>Agile Sheffield</h3>
                 <li class="info">Twitter:<a href="https://twitter.com/AgileSheffield">@AgileSheffield</a></li>
             </div> 
@@ -235,9 +237,9 @@
             </div>
             <div class= "show" data-category="">
                 <h3>Dotnetshef</h3>
-                <li class="info">Twitter:<a href="https://twitter.com/dotnetsheff ">@dotnetsheff</a></li>
+                <li class="info">Twitter:<a href="https://twitter.com/dotnetsheff">@dotnetsheff</a></li>
             </div>
-             <div class= "show" data-category="shef notreg">
+            <div class= "show" data-category="shef notreg">
                 <h3>Agile Sheffield</h3>
                 <li class="info">Twitter:<a href="https://twitter.com/AgileSheffield">@AgileSheffield</a></li>
             </div> 
@@ -266,10 +268,6 @@
             <div class= "show" data-category="">
                 <h3>Maths Jam Sheffield</h3>
                 <li class="info">Website:<a href="https://mathsjam.com/cities/sheffield/">Maths Jam Sheffield</a></li>
-            </div>
-            <div class= "show" data-category="">
-                <h3>Tidal Club</h3>
-                <li class="info">Twitter:<a href="https://twitter.com/tidalclub">@tidalclub</a></li>
             </div>
             <div class= "show" data-category="">
                 <h3>Startup Sheffield</h3>
@@ -330,8 +328,8 @@
                 <li class="info">Twitter:<a href="https://twitter.com/PiJamSheffield">@PiJamSheffield</a></li>
             </div>
         </div>
+    </div>   
 
-    </div>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
     <script src="./js.js"></script>
 </body>
