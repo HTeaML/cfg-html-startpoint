@@ -50,10 +50,10 @@ p {
 	color: black;
 	background-color: #ffb300;
 }
-/*img {
+img {
 	max-height: 400px;
 	max-width: 400px;
-}*/
+}
 
 input {
 	min-width: 250px;
