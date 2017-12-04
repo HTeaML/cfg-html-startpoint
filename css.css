@@ -17,7 +17,7 @@ h2 {
 	margin-left: -20px;
 	line-height: 35px;
 	padding: 0px 15px 0px 20px;
-	padding-left: 118px;
+	padding-left: 50px;
 }
 
 h3 {
@@ -27,14 +27,14 @@ h3 {
 }
 
 h4 {
+	text-align: center;
 	font-size: 25px;
-	font-weight: bold;
 	padding: 50px 20px 50px 20px;
 	color: rgb(244, 171, 0);
 }
 
-p {
-	padding: 0px 30px 0px 30px;
+h5 {
+	padding-top: 30px;
 }
 
 .jumbotron {
@@ -51,13 +51,13 @@ p {
 
 .new-class {
 	font-family: 'Open Sans', sans-serif;
-	padding: 10px 40px 10px 40px;
-	text-align: center; 
+	padding: 10px 80px 10px 80px;
+	text-align: center;
+	font-size: 15px; 
 }
 
 .img-responsive {
-	padding: 30px 10px 30px 10px;
-	border-color: black;
+	border: 10px solid #e0e0e0;
 }
 
 .highlight {
