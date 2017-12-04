@@ -1,6 +1,7 @@
 html {
 	cursor: url("images/Cursor.png"), auto;
 }
+
 body {
 	background-color: #e0e0e0;
 	font-family: 'Exo 2', sans-serif;
@@ -20,10 +21,12 @@ h2 {
 	padding-left: 50px;
 }
 
-h3 {
+h3.our-names {
 	text-align: center;
 	font-family: 'Exo 2', sans-serif;
 	font-size: 25px;
+	color: #424242;
+	padding-bottom: 10px;
 }
 
 h4 {
@@ -34,11 +37,9 @@ h4 {
 }
 
 h5 {
-	padding-top: 30px;
-}
-
-.jumbotron {
-	box-sizing: border-box;
+	padding-top: 20px;
+	color: #424242;
+	font-size: 15px;
 }
 
 .typewriter {
@@ -52,8 +53,7 @@ h5 {
 .new-class {
 	font-family: 'Open Sans', sans-serif;
 	padding: 10px 80px 10px 80px;
-	text-align: center;
-	font-size: 15px; 
+	text-align: center; 
 }
 
 .img-responsive {
@@ -70,6 +70,15 @@ h5 {
 	color: black;
 	background-color: #ffb300;
 }
+
+.show {
+	text-align: left;
+}
+
+ul.orange-dots {
+	list-style-type: circle;
+}
+
 img {
 	max-height: 400px;
 	max-width: 400px;
