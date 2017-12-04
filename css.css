@@ -6,16 +6,16 @@ li {
 	list-style-type:square;
  	list-style-position:inside;
  	list-style-image:url("images/Orange-Bullets.png");
- 	font-family: 'Exo 2', sans-serif;
+ 	font-family: 'Open Sans', sans-serif;
 }
 
 body {
 	background-color: #e0e0e0;
-	font-family: 'Exo 2', sans-serif;
+	font-family: 'Open Sans', sans-serif;
 }
 
 label {
-	font-family: 'Exo 2', sans-serif;
+	font-family: 'Open Sans', sans-serif;
 }
 
 a {
@@ -84,6 +84,10 @@ h5 {
 	font-weight: bold;
 	color: black;
 	background-color: #ffb300;
+}
+
+.filters {
+ 	font-family: 'Open Sans', sans-serif;	
 }
 
 img {
