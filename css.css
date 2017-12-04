@@ -2,15 +2,12 @@ html {
 	cursor: url("images/test_finger.png");
 }
 
-<<<<<<< HEAD
 /*li{
 	list-style-type:square;
  	list-style-position:inside;
  	list-style-image:url("images/Cursor.png");
 }*/
 
-=======
->>>>>>> 7a474cbf3f14eb3cfb56f9854bec0cbf50abc5b0
 body {
 	background-color: #e0e0e0;
 	font-family: 'Exo 2', sans-serif;
