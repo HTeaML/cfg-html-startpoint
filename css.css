@@ -117,8 +117,21 @@ nav {
 }
 
 .facebook {
-	width:50%
-	height:50%;
+	border:0px;
+	width:50px
+	height:50px;
+}
+
+.instagram {
+	border:0px;
+	width:50px
+	height:50px;
+}
+
+.twitter {
+	border:0px;
+	width:50px;
+	height:50px;
 }
 
 img {
