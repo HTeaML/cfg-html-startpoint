@@ -116,6 +116,11 @@ nav {
  	font-family: 'Open Sans', sans-serif;	
 }
 
+.facebook {
+	width:50%
+	height:50%;
+}
+
 img {
 	max-height: 400px;
 	max-width: 400px;
