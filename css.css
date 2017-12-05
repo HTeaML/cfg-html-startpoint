@@ -21,6 +21,7 @@ label {
 
 a {
 	color: #e8a404;
+	padding-bottom: 20px;
 }
 
 p {
@@ -61,7 +62,6 @@ h5 {
 	color: #424242;
 	font-size: 15px;
 }
-
 
 
 .typewriter {
@@ -110,6 +110,10 @@ input {
 
 textarea {
 	min-width: 250px;
+}
+
+iframe {
+	border: 10px solid #ffb300;
 }
 
 #gif {
