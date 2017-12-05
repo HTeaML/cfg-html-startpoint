@@ -126,7 +126,7 @@ img {
 	max-width: 400px;
 }
 
-input {
+input [type=text], [type=email] {
 	min-width: 250px;
 }
 
