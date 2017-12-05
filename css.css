@@ -21,7 +21,7 @@ label {
 
 a {
 	color: #e8a404;
-	padding-bottom: 20px;
+	padding-bottom: 20p;
 }
 
 p {
@@ -55,6 +55,8 @@ h4 {
 	font-size: 25px;
 	padding: 30px 20px 30px 20px;
 	color: rgb(244, 171, 0);
+	font-weight: bold;
+	font-family: 'Exo 2', sans-serif;
 }
 
 h5 {
@@ -63,6 +65,21 @@ h5 {
 	font-size: 15px;
 }
 
+h6 {
+	text-align: center;
+	font-size: 55px;
+	padding: 30px 20px 30px 20px;
+	color: rgb(244, 171, 0);
+	font-weight: bold;
+	font-family: 'Exo 2', sans-serif;	
+}
+
+nav {
+	color: #ffb300;
+	font-size: 15px;
+	font-family: 'Exo 2', sans-serif;
+
+}
 
 .typewriter {
 	min-height: 325px;
@@ -113,7 +130,8 @@ textarea {
 }
 
 iframe {
-	border: 10px solid #ffb300;
+	border: 8px solid #ffb300;
+	border-radius: 10px;
 }
 
 #gif {
