@@ -7,8 +7,11 @@ $(document).ready(function() {
         $(this).addClass(classHighlight);
     })
 
-/*    $('.show').hide();
-    $('.show').children().hide();*/
+    /*submit button*/
+    $('.btn-warning').on('click', function(){
+        $('.form-control').val("");
+        alert("Thanks for getting in touch!")
+    })
 
     /*show and hide the group-detail if the name of the group is clicked*/
     $('.info').hide();
@@ -80,7 +83,6 @@ $(document).ready(function() {
                 // if the current category exists in the selected filters array
                 // set matched to true, and stop looping. as we're ORing in each
                 // set of filters, we only need to match once
-
                     if ($.inArray(currentFilterValue, filterValues) != -1) {
                         matched = true;
                         return false;
