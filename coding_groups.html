@@ -8,7 +8,6 @@
     <link href="https://fonts.googleapis.com/css?family=Exo+2|Open+Sans" rel="stylesheet">
     <script src="https://code.jquery.com/jquery-2.2.4.min.js" integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44=" crossorigin="anonymous"></script>
     <link rel="icon" href="images/Cursor_Orange.png" sizes="any" type="image/png">
-
 </head>
 
 <body>
@@ -46,265 +45,265 @@
     </nav>
     <!--END NAV-->
 
-        <!-- START CHECKBOX -->
-        <div class="jumbotron">    
-    <div class="container" id=filters>
-        <h4 class="text-left" style="padding-left: 0px">Select what groups you want to see:</h4> 
-        <div class = 'filters'>
-        <div class='row'>
-            <div class='col-md-4'>
-<!--                 <div class="checkbox">
-                    <label><input type="checkbox" name="show" value="show">Show all</label>
-                </div> -->
-                <div class="lang">
-                    <p>Coding Language:</p>
-                    <div class="checkbox">
-                        <label><input type="checkbox" name ="lang" value="r">R</label>
+    <!-- START CHECKBOX -->
+    <div class="jumbotron">    
+        <div class="container" id=filters>
+            <h4 class="text-left" style="padding-left: 0px">Select what groups you want to see:</h4> 
+            <div class = 'filters'>
+                <div class='row'>
+                    <div class='col-md-4'>
+        <!--                 <div class="checkbox">
+                            <label><input type="checkbox" name="show" value="show">Show all</label>
+                        </div> -->
+                        <div class="lang">
+                            <p>Coding Language:</p>
+                            <div class="checkbox">
+                                <label><input type="checkbox" name ="lang" value="r">R</label>
+                            </div>
+                            <div class="checkbox">
+                                <label><input type="checkbox" name ="lang" value="py">Python</label>
+                            </div>
+                            <div class="checkbox">
+                                <label><input type="checkbox" name ="lang" value="js">JavaScript</label>
+                            </div>
+                            <div class="checkbox">
+                                <label><input type="checkbox" name ="lang" value="ruby">Ruby</label>
+                            </div>
+                            <div class="checkbox">
+                                <label><input type="checkbox" name ="lang" value="php">PHP</label>
+                            </div>
+                            <div class="checkbox">
+                                <label><input type="checkbox" name ="lang" value="other_lang">Other</label>
+                            </div>
+                        </div>
                     </div>
-                    <div class="checkbox">
-                        <label><input type="checkbox" name ="lang" value="py">Python</label>
+                    <div class='col-md-4'>
+                        <div class="freq">
+                            <p>Frequency:</p>
+                            <div class="checkbox">
+                                <label><input type="checkbox" name ="freq" value="2week">Fortnightly meetings</label>
+                            </div>
+                            <div class="checkbox">
+                                <label><input type="checkbox" name ="freq" value="week">Weekly meetings</label>
+                            </div>
+                            <div class="checkbox">
+                                <label><input type="checkbox" name ="freq" value="month">Monthly meetings</label>
+                            </div>
+                            <div class="checkbox">
+                                <label><input type="checkbox" name ="freq" value="notreg">Not regular</label>
+                            </div>
+                        </div>
+                        <div class="day">
+                            <p>Day:</p>
+                            <div class="checkbox">
+                                <label><input type="checkbox" name ="day" value="tue">Tuesday</label>
+                            </div>
+                            <div class="checkbox">
+                                <label><input type="checkbox" name ="day" value="wed">Wednesday</label>
+                            </div>
+                            <div class="checkbox">
+                                <label><input type="checkbox" name ="day" value="thu">Thursday</label>
+                            </div>
+                        </div>
                     </div>
-                    <div class="checkbox">
-                        <label><input type="checkbox" name ="lang" value="js">JavaScript</label>
-                    </div>
-                    <div class="checkbox">
-                        <label><input type="checkbox" name ="lang" value="ruby">Ruby</label>
-                    </div>
-                    <div class="checkbox">
-                        <label><input type="checkbox" name ="lang" value="php">PHP</label>
-                    </div>
-                    <div class="checkbox">
-                        <label><input type="checkbox" name ="lang" value="other_lang">Other</label>
-                    </div>
-                </div>
-            </div>
-            <div class='col-md-4'>
-                <div class="freq">
-                    <p>Frequency:</p>
-                    <div class="checkbox">
-                        <label><input type="checkbox" name ="freq" value="2week">Fortnightly meetings</label>
-                    </div>
-                    <div class="checkbox">
-                        <label><input type="checkbox" name ="freq" value="week">Weekly meetings</label>
-                    </div>
-                    <div class="checkbox">
-                        <label><input type="checkbox" name ="freq" value="month">Monthly meetings</label>
-                    </div>
-                    <div class="checkbox">
-                        <label><input type="checkbox" name ="freq" value="notreg">Not regular</label>
-                    </div>
-                </div>
-                <div class="day">
-                    <p>Day:</p>
-                    <div class="checkbox">
-                        <label><input type="checkbox" name ="day" value="tue">Tuesday</label>
-                    </div>
-                    <div class="checkbox">
-                        <label><input type="checkbox" name ="day" value="wed">Wednesday</label>
-                    </div>
-                    <div class="checkbox">
-                        <label><input type="checkbox" name ="day" value="thu">Thursday</label>
-                    </div>
-                </div>
-            </div>
-            <div class='col-md-4'>
-                <div class = "area">
-                    <p>Area:</p>
-                    <div class="checkbox">
-                        <label><input type="checkbox" name ="area" value="shef">Sheffield</label>
-                    </div>
-                    <div class="checkbox">
-                        <label><input type="checkbox" name ="area" value="wshef">Wider Sheffield</label>
-                    </div>
-                </div>
-                <div class="other">
-                    <p>Other:</p>
-                    <div class="checkbox">
-                        <label><input type="checkbox" name ="other" value="uni">University based</label>
-                    </div>
-                    <div class="checkbox">
-                        <label><input type="checkbox" name ="other" value="women">Women only</label>
-                    </div>
-                    <div class="checkbox">
-                        <label><input type="checkbox" name ="other" value="course">Coding course</label>
-                    </div>
-                    <div class="checkbox">
-                        <label><input type="checkbox" name ="other" value="web">Web development</label>
-                    </div>
-                    <div class="checkbox">
-                        <label><input type="checkbox" name ="other" value="hack">Hackathon</label>
+                    <div class='col-md-4'>
+                        <div class = "area">
+                            <p>Area:</p>
+                            <div class="checkbox">
+                                <label><input type="checkbox" name ="area" value="shef">Sheffield</label>
+                            </div>
+                            <div class="checkbox">
+                                <label><input type="checkbox" name ="area" value="wshef">Wider Sheffield</label>
+                            </div>
+                        </div>
+                        <div class="other">
+                            <p>Other:</p>
+                            <div class="checkbox">
+                                <label><input type="checkbox" name ="other" value="uni">University based</label>
+                            </div>
+                            <div class="checkbox">
+                                <label><input type="checkbox" name ="other" value="women">Women only</label>
+                            </div>
+                            <div class="checkbox">
+                                <label><input type="checkbox" name ="other" value="course">Coding course</label>
+                            </div>
+                            <div class="checkbox">
+                                <label><input type="checkbox" name ="other" value="web">Web development</label>
+                            </div>
+                            <div class="checkbox">
+                                <label><input type="checkbox" name ="other" value="hack">Hackathon</label>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
     </div>
-    </div>
-        <!-- END CHECKBOX -->
+    <!-- END CHECKBOX -->
 
-        <div class="container show" id="groups" data-category="show">
-            <div class= "show" data-category="py shef uni 2week thu">
-                <h3 class=group>University Python Club</h3>
-                <li class="info">Twitter:<a href="https://www.twitter.com/python_club_">@python_club_</a></li>
-                <li class="info">Facebook:<a href="https://www.facebook.com/UoSPythonClub/">UoS Python Club</a></li>
-                <li class="info">University website:<a href="https://groups.google.com/a/sheffield.ac.uk/forum/#!forum/pgpythonclub-group">UoS page</a></li>
-                <li class="info">Meeting:Thursday afternoon every 2 weeks</li>
-                <li class="info">About:Post graduate and early researcher python club</li>
-            </div>    
-            <div class= "show" data-category="py shef month tue">
-                <h3 class=group>Python Sheffield</h3>
-                <li class="info">Twitter:<a href="https://twitter.com/pysheff">@pysheff</a></li>
-            </div>
-            <div class= "show" data-category="r tue month uni shef">
-                <h3 class=group>Sheffield R</h3>
-                <li class="info">Twitter:<a href="https://twitter.com/Sheffield_R_">@Sheffield_R_</a></li>
-                <li class="info">Meet up website:<a href="https://www.meetup.com/SheffieldR-Sheffield-R-Users-Group/">SheffieldR - Sheffield R Users Group</a></li>
-            </div>
-            <div class= "show" data-category="shef women week course web py js">
-                <h3 class=group>Code First Girls</h3>
-                <li class="info">Website:<a href="https://shefcodefirst.herokuapp.com/">Shef Code First</a></li>
-            </div>
-            <div class= "show" data-category="women notreg course">
-                <h3 class=group>Django Girls Sheffield</h3>
-                <li class="info">Twitter:<a href="https://twitter.com/djangogirlsshef">@djangogirlsshef</a></li>
-                <li class="info">Website:<a href="https://djangogirls.org/sheffield/">Django Girls</a></li>
-            </div>
-            <div class= "show" data-category="shef other_lang">
-                <h3 class=group>Data for Good</h3>
-                <li class="info">Meet up website:<a href="https://www.meetup.com/Sheffield-Data-for-Good">Sheffield Data for Good</a></li>
-            </div>
-            <div class= "show" data-category="shef other_lang">
-                <h3 class=group>Sheffield Tech4Good</h3>
-                <li class="info">Twitter:<a href="https://twitter.com/shefftech4good">@shefftech4good</a></li>
-            </div>
-            <div class= "show" data-category="shef ruby">
-                <h3 class=group>Sheffield Ruby User Group</h3>
-                <li class="info">Twitter:<a href="https://twitter.com/sheffieldruby">@sheffieldruby</a></li>
-                <li class="info">Meet up website:<a href="https://www.meetup.com/sheffieldrubyists/">Sheffield Rubists</a></li>
-            </div>
-            <div class= "show" data-category="hack uni shef">
-                <h3 class=group>HackSheffield</h3>
-                <li class="info">Twitter:<a href="https://twitter.com/HackSheffield">@HackSheffield</a></li>
-                <li class="info">Facebook:<a href="https://www.facebook.com/HackSheffield/">Hack Sheffield</a></li>
-            </div> 
-            <div class= "show" data-category="hack uni shef">
-                <h3 class=group>MedTech</h3>
-                <li class="info">Twitter:<a href="https://twitter.com/hackmeduk">@hackmeduk</a></li>
-                <li class="info">Facebook:<a href="https://www.facebook.com/medtechsheffield/">MedTech Sheffield</a></li>
-            </div>
-            <div class= "show" data-category="shef">
-                <h3 class=group>Sheffield Digital</h3>
-                <li class="info">Twitter:<a href="https://twitter.com/SHFDigital">@SHFDigital</a></li>  
-            </div>
-            <div class= "show" data-category="">
-                <h3 class=group>Sheffield Geeks</h3>
-                <li class="info">Twitter:<a href="https://twitter.com/sheffieldgeeks">@sheffieldgeeks</a></li>
-            </div>
-            <div class= "show" data-category="shef">
-                <h3 class=group>Open (Digital) Rights Group Sheffield</h3>
-                <li class="info">Twitter:<a href="https://twitter.com/ORGShef">@ORGShef</a></li>
-            </div>
-            <div class= "show" data-category="js shef web">
-                <h3 class=group>Sheffield JavaScript</h3>
-                <li class="info">Twitter:<a href="https://twitter.com/sheffield_js">@sheffield_js</a></li>
-            </div>
-            <div class= "show" data-category="web php">
-                <h3 class=group>Sheffield PHP</h3>
-                <li class="info">Twitter:<a href="https://twitter.com/SheffieldPHP">@SheffieldPHP</a></li>
-                <li class="info">Website:<a href="https://www.sheffieldphp.co.uk/">Sheffield PHP</a></li> 
-            </div>
-            <div class= "show" data-category="shef">
-                <h3 class=group>Sheffield Test Gathering</h3>
-                <li class="info">Meet up website:<a href="https://www.meetup.com/Sheffield-Test-Gathering/">Sheffield Test Gathering</a></li>
-            </div>
-            <div class= "show" data-category="web notreg">
-                <h3 class=group>Digital North</h3>
-                <li class="info">Meet up website:<a href="https://www.meetup.com/Digital_North_/">Digital North</a></li>
-            </div>
-            <div class= "show" data-category="shef">
-                <h3 class=group>CodeUp Sheffield</h3>
-                <li class="info">Meet up website:<a href="https://www.meetup.com/CodeUp-Sheffield/">CodeUp Sheffield</a></li>
-            </div>
-            <div class= "show" data-category="web shef">
-                <h3 class=group>WordPress Sheffield</h3>
-                <li class="info">Meet up website:<a href="https://www.meetup.com/wpsheffield/">WordPress Sheffield</a></li> 
-            </div>
-            <div class= "show" data-category="shef other_lang">
-                <h3 class=group>Google Sheffield Garage</h3>
-                <li class="info">Website:<a href="g.co/sheffieldgarage">Google Sheffield Garage</a></li>
-            </div>
-            <div class= "show" data-category="wshef notreg">
-                <h3 class=group>Product Tank Yorkshire</h3>
-                <li class="info">Twitter:<a href="https://twitter.com/ProdTankYorks">@ProdTankYorks</a></li>
-            </div>    
-            <div class= "show" data-category="shef">
-                <h3 class=group>Agile Sheffield</h3>
-                <li class="info">Twitter:<a href="https://twitter.com/AgileSheffield">@AgileSheffield</a></li>
-            </div> 
-            <div class= "show" data-category="web shef">
-                <h3 class=group>UX Sheffield</h3>
-                <li class="info">Twitter:<a href="https://twitter.com/uxsheffield">@uxsheffield</a></li>
-            </div>
-            <div class= "show" data-category="wshef">
-                <h3 class=group>Queer Code Yorkshire</h3>
-                <li class="info">Twitter:<a href="https://twitter.com/QueerCodeYorks">@QueerCodeYorks</a></li>
-            </div>
-            <div class= "show" data-category="shef">
-                <h3 class=group>Dotnetshef</h3>
-                <li class="info">Twitter:<a href="https://twitter.com/dotnetsheff">@dotnetsheff</a></li>
-            </div>
-            <div class= "show" data-category="shef notreg">
-                <h3 class=group>Agile Sheffield</h3>
-                <li class="info">Twitter:<a href="https://twitter.com/AgileSheffield">@AgileSheffield</a></li>
-            </div> 
-            <div class= "show" data-category="shef hack">
-                <h3 class=group>Sheffield Hackspace</h3>
-                <li class="info">Website:<a href="http://www.sheffieldhardwarehackers.org.uk/wordpress/what-we-do/">Sheffield Hackspace</a></li>
-                <li class="info">Google group site:<a href="https://groups.google.com/forum/?hl=en&fromgroups#!forum/sheffield-hardware-hackers">Sheffield Hardware Hackers</a></li>
-            </div>
-            <div class= "show" data-category="shef">
-                <h3 class=group>Maths Jam Sheffield</h3>
-                <li class="info">Website:<a href="https://mathsjam.com/cities/sheffield/">Maths Jam Sheffield</a></li>
-            </div>
-            <div class= "show" data-category="shef notreg other_lang">
-                <h3 class=group>Tidal Club</h3>
-                <li class="info">Twitter:<a href="https://twitter.com/tidalclub">@tidalclub</a></li>
-            </div>
-            <div class= "show" data-category="shef">
-                <h3 class=group>Startup Sheffield</h3>
-                <li class="info">Meet up website:<a href="https://www.meetup.com/Startup-Sheffield/">Startup Sheffield</a></li>
-            </div>
-            <div class= "show" data-category="shef notreg">
-                <h3 class=group>Sheffield ML Club</h3>
-                <li class="info">Twitter:<a href="https://twitter.com/shef_ml">@shef_ml</a></li>
-            </div>
-            <div class= "show" data-category="shef notreg">
-                <h3 class=group>Sheffield Swift</h3>
-                <li class="info">Twitter:<a href="https://twitter.com/sheffieldswift">@sheffieldswift</a></li>
-            </div>
-            <div class= "show" data-category="shef thu month">
-                <h3 class=group>Sheffield Devops</h3>
-                <li class="info">Website:<a href="http://www.sheffielddevops.org.uk/">Sheffield Devops</a></li>
-            </div>
-            <div class= "show" data-category="shef month">
-                <h3 class=group>GitPub</h3>
-                <li class="info">Twitter:<a href="https://twitter.com/GitPub_Shef">GitPub Sheffield</a></li>
-                <li class="info">Website:<a href="http://gitpub.org.uk/">GitPub</a></li>
-            </div>
-            <div class= "show" data-category="shef month">
-                <h3 class=group>Sheffield LUG</h3>
-                <li class="info">Twitter:<a href="https://twitter.com/ShefLUG">@ShefLUG</a></li>
-                <li class="info">Website:<a href="http://www.sheflug.org.uk/indexpage/">Sheffield LUG</a></li>
-            </div>
-            <div class= "show" data-category="shef notreg">
-                <h3 class=group>Dorkbot Shef</h3>
-                <li class="info">Website:<a href="http://dorkbotsheffield.lurk.org/">Dorkbot Sheffield</a></li>
-            </div>
-            <div class= "show" data-category="shef notreg">
-                <h3 class=group>Raspberry Pi Sheffield</h3>
-                <li class="info">Twitter:<a href="https://twitter.com/PiJamSheffield">@PiJamSheffield</a></li>
-            </div>
+    <div class="container show" id="groups" data-category="show">
+        <div class= "show" data-category="py shef uni 2week thu">
+            <h3 class=group>University Python Club</h3>
+            <li class="info">Twitter:<a href="https://www.twitter.com/python_club_">@python_club_</a></li>
+            <li class="info">Facebook:<a href="https://www.facebook.com/UoSPythonClub/">UoS Python Club</a></li>
+            <li class="info">University website:<a href="https://groups.google.com/a/sheffield.ac.uk/forum/#!forum/pgpythonclub-group">UoS page</a></li>
+            <li class="info">Meeting:Thursday afternoon every 2 weeks</li>
+            <li class="info">About:Post graduate and early researcher python club</li>
+        </div>    
+        <div class= "show" data-category="py shef month tue">
+            <h3 class=group>Python Sheffield</h3>
+            <li class="info">Twitter:<a href="https://twitter.com/pysheff">@pysheff</a></li>
         </div>
-    </div>   
+        <div class= "show" data-category="r tue month uni shef">
+            <h3 class=group>Sheffield R</h3>
+            <li class="info">Twitter:<a href="https://twitter.com/Sheffield_R_">@Sheffield_R_</a></li>
+            <li class="info">Meet up website:<a href="https://www.meetup.com/SheffieldR-Sheffield-R-Users-Group/">SheffieldR - Sheffield R Users Group</a></li>
+        </div>
+        <div class= "show" data-category="shef women week course web py js">
+            <h3 class=group>Code First Girls</h3>
+            <li class="info">Website:<a href="https://shefcodefirst.herokuapp.com/">Shef Code First</a></li>
+        </div>
+        <div class= "show" data-category="women notreg course">
+            <h3 class=group>Django Girls Sheffield</h3>
+            <li class="info">Twitter:<a href="https://twitter.com/djangogirlsshef">@djangogirlsshef</a></li>
+            <li class="info">Website:<a href="https://djangogirls.org/sheffield/">Django Girls</a></li>
+        </div>
+        <div class= "show" data-category="shef other_lang">
+            <h3 class=group>Data for Good</h3>
+            <li class="info">Meet up website:<a href="https://www.meetup.com/Sheffield-Data-for-Good">Sheffield Data for Good</a></li>
+        </div>
+        <div class= "show" data-category="shef other_lang">
+            <h3 class=group>Sheffield Tech4Good</h3>
+            <li class="info">Twitter:<a href="https://twitter.com/shefftech4good">@shefftech4good</a></li>
+        </div>
+        <div class= "show" data-category="shef ruby">
+            <h3 class=group>Sheffield Ruby User Group</h3>
+            <li class="info">Twitter:<a href="https://twitter.com/sheffieldruby">@sheffieldruby</a></li>
+            <li class="info">Meet up website:<a href="https://www.meetup.com/sheffieldrubyists/">Sheffield Rubists</a></li>
+        </div>
+        <div class= "show" data-category="hack uni shef">
+            <h3 class=group>HackSheffield</h3>
+            <li class="info">Twitter:<a href="https://twitter.com/HackSheffield">@HackSheffield</a></li>
+            <li class="info">Facebook:<a href="https://www.facebook.com/HackSheffield/">Hack Sheffield</a></li>
+        </div> 
+        <div class= "show" data-category="hack uni shef">
+            <h3 class=group>MedTech</h3>
+            <li class="info">Twitter:<a href="https://twitter.com/hackmeduk">@hackmeduk</a></li>
+            <li class="info">Facebook:<a href="https://www.facebook.com/medtechsheffield/">MedTech Sheffield</a></li>
+        </div>
+        <div class= "show" data-category="shef">
+            <h3 class=group>Sheffield Digital</h3>
+            <li class="info">Twitter:<a href="https://twitter.com/SHFDigital">@SHFDigital</a></li>  
+        </div>
+        <div class= "show" data-category="">
+            <h3 class=group>Sheffield Geeks</h3>
+            <li class="info">Twitter:<a href="https://twitter.com/sheffieldgeeks">@sheffieldgeeks</a></li>
+        </div>
+        <div class= "show" data-category="shef">
+            <h3 class=group>Open (Digital) Rights Group Sheffield</h3>
+            <li class="info">Twitter:<a href="https://twitter.com/ORGShef">@ORGShef</a></li>
+        </div>
+        <div class= "show" data-category="js shef web">
+            <h3 class=group>Sheffield JavaScript</h3>
+            <li class="info">Twitter:<a href="https://twitter.com/sheffield_js">@sheffield_js</a></li>
+        </div>
+        <div class= "show" data-category="web php">
+            <h3 class=group>Sheffield PHP</h3>
+            <li class="info">Twitter:<a href="https://twitter.com/SheffieldPHP">@SheffieldPHP</a></li>
+            <li class="info">Website:<a href="https://www.sheffieldphp.co.uk/">Sheffield PHP</a></li> 
+        </div>
+        <div class= "show" data-category="shef">
+            <h3 class=group>Sheffield Test Gathering</h3>
+            <li class="info">Meet up website:<a href="https://www.meetup.com/Sheffield-Test-Gathering/">Sheffield Test Gathering</a></li>
+        </div>
+        <div class= "show" data-category="web notreg">
+            <h3 class=group>Digital North</h3>
+            <li class="info">Meet up website:<a href="https://www.meetup.com/Digital_North_/">Digital North</a></li>
+        </div>
+        <div class= "show" data-category="shef">
+            <h3 class=group>CodeUp Sheffield</h3>
+            <li class="info">Meet up website:<a href="https://www.meetup.com/CodeUp-Sheffield/">CodeUp Sheffield</a></li>
+        </div>
+        <div class= "show" data-category="web shef">
+            <h3 class=group>WordPress Sheffield</h3>
+            <li class="info">Meet up website:<a href="https://www.meetup.com/wpsheffield/">WordPress Sheffield</a></li> 
+        </div>
+        <div class= "show" data-category="shef other_lang">
+            <h3 class=group>Google Sheffield Garage</h3>
+            <li class="info">Website:<a href="g.co/sheffieldgarage">Google Sheffield Garage</a></li>
+        </div>
+        <div class= "show" data-category="wshef notreg">
+            <h3 class=group>Product Tank Yorkshire</h3>
+            <li class="info">Twitter:<a href="https://twitter.com/ProdTankYorks">@ProdTankYorks</a></li>
+        </div>    
+        <div class= "show" data-category="shef">
+            <h3 class=group>Agile Sheffield</h3>
+            <li class="info">Twitter:<a href="https://twitter.com/AgileSheffield">@AgileSheffield</a></li>
+        </div> 
+        <div class= "show" data-category="web shef">
+            <h3 class=group>UX Sheffield</h3>
+            <li class="info">Twitter:<a href="https://twitter.com/uxsheffield">@uxsheffield</a></li>
+        </div>
+        <div class= "show" data-category="wshef">
+            <h3 class=group>Queer Code Yorkshire</h3>
+            <li class="info">Twitter:<a href="https://twitter.com/QueerCodeYorks">@QueerCodeYorks</a></li>
+        </div>
+        <div class= "show" data-category="shef">
+            <h3 class=group>Dotnetshef</h3>
+            <li class="info">Twitter:<a href="https://twitter.com/dotnetsheff">@dotnetsheff</a></li>
+        </div>
+        <div class= "show" data-category="shef notreg">
+            <h3 class=group>Agile Sheffield</h3>
+            <li class="info">Twitter:<a href="https://twitter.com/AgileSheffield">@AgileSheffield</a></li>
+        </div> 
+        <div class= "show" data-category="shef hack">
+            <h3 class=group>Sheffield Hackspace</h3>
+            <li class="info">Website:<a href="http://www.sheffieldhardwarehackers.org.uk/wordpress/what-we-do/">Sheffield Hackspace</a></li>
+            <li class="info">Google group site:<a href="https://groups.google.com/forum/?hl=en&fromgroups#!forum/sheffield-hardware-hackers">Sheffield Hardware Hackers</a></li>
+        </div>
+        <div class= "show" data-category="shef">
+            <h3 class=group>Maths Jam Sheffield</h3>
+            <li class="info">Website:<a href="https://mathsjam.com/cities/sheffield/">Maths Jam Sheffield</a></li>
+        </div>
+        <div class= "show" data-category="shef notreg other_lang">
+            <h3 class=group>Tidal Club</h3>
+            <li class="info">Twitter:<a href="https://twitter.com/tidalclub">@tidalclub</a></li>
+        </div>
+        <div class= "show" data-category="shef">
+            <h3 class=group>Startup Sheffield</h3>
+            <li class="info">Meet up website:<a href="https://www.meetup.com/Startup-Sheffield/">Startup Sheffield</a></li>
+        </div>
+        <div class= "show" data-category="shef notreg">
+            <h3 class=group>Sheffield ML Club</h3>
+            <li class="info">Twitter:<a href="https://twitter.com/shef_ml">@shef_ml</a></li>
+        </div>
+        <div class= "show" data-category="shef notreg">
+            <h3 class=group>Sheffield Swift</h3>
+            <li class="info">Twitter:<a href="https://twitter.com/sheffieldswift">@sheffieldswift</a></li>
+        </div>
+        <div class= "show" data-category="shef thu month">
+            <h3 class=group>Sheffield Devops</h3>
+            <li class="info">Website:<a href="http://www.sheffielddevops.org.uk/">Sheffield Devops</a></li>
+        </div>
+        <div class= "show" data-category="shef month">
+            <h3 class=group>GitPub</h3>
+            <li class="info">Twitter:<a href="https://twitter.com/GitPub_Shef">GitPub Sheffield</a></li>
+            <li class="info">Website:<a href="http://gitpub.org.uk/">GitPub</a></li>
+        </div>
+        <div class= "show" data-category="shef month">
+            <h3 class=group>Sheffield LUG</h3>
+            <li class="info">Twitter:<a href="https://twitter.com/ShefLUG">@ShefLUG</a></li>
+            <li class="info">Website:<a href="http://www.sheflug.org.uk/indexpage/">Sheffield LUG</a></li>
+        </div>
+        <div class= "show" data-category="shef notreg">
+            <h3 class=group>Dorkbot Shef</h3>
+            <li class="info">Website:<a href="http://dorkbotsheffield.lurk.org/">Dorkbot Sheffield</a></li>
+        </div>
+        <div class= "show" data-category="shef notreg">
+            <h3 class=group>Raspberry Pi Sheffield</h3>
+            <li class="info">Twitter:<a href="https://twitter.com/PiJamSheffield">@PiJamSheffield</a></li>
+        </div>
+    </div>  
 
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
     <script src="./js.js"></script>
