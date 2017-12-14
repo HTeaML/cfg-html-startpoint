@@ -5,13 +5,13 @@ $(document).ready(function() {
         e.preventDefault();
         $hover.removeClass(classHighlight);
         $(this).addClass(classHighlight);
-    })
+    });
 
     /*submit button*/
     $('.btn-warning').on('click', function(){
         $('.form-control').val("");
-        alert("Thanks for getting in touch!")
-    })
+        alert("Thanks for getting in touch! Use #sheftechwomen to get a faster reply ;)");
+    });
 
     /*show and hide the group-detail if the name of the group is clicked*/
     $('.info').hide();
