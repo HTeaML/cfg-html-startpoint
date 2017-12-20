@@ -16,16 +16,16 @@ body {
 
 label {
 	font-family: 'Open Sans', sans-serif;
-	padding-top: : 10px;
+	padding-top: 10px;
 }
 
 a {
 	color: #e8a404;
-	padding-bottom: 20p;
+	padding-bottom: 20px;
 }
 
 p {
-	padding: 10px 0px 10px 0px;
+	padding: 10px 0 10px 0;
 }
 
 h2 {
@@ -33,16 +33,16 @@ h2 {
 	font-family: 'Exo 2', sans-serif;
 	font-size: 25px;
 	font-weight: bold;
-	background-color:rgba(244, 171, 0, 0.9);
-	margin-top: 300px; 
+	background-color: rgba(244, 171, 0, 0.9);
+	margin-top: 295px; 
 	margin-right:-15px;
 	margin-left: -20px;
 	line-height: 35px;
-	padding: 0px 15px 0px 20px;
+	padding: 0 15px 0 20px;
 	padding-left: 50px;
 }
 
-h3.our-names {
+.our-names {
 	text-align: center;
 	font-family: 'Exo 2', sans-serif;
 	font-size: 25px;
@@ -102,8 +102,8 @@ nav {
 .highlight {
     background-color: #ffb300;
     font-weight: bold;
-    padding: 2px 0px 2px 3px;
-    box-shadow: 0px 0px 1px 1px #ffb300;
+    padding: 2px 0 2px 3px;
+    box-shadow: 0 0 1px 1px #ffb300;
 }
 
 .btn {
@@ -117,19 +117,19 @@ nav {
 }
 
 .facebook {
-	border:0px;
+	border:0;
 	width:30px;
 	height:30px;
 }
 
 .instagram {
-	border:0px;
+	border:0;
 	width:30px;
 	height:30px;
 }
 
 .twitter {
-	border:0px;
+	border:0;
 	width:30px;
 	height:30px;
 }
@@ -165,11 +165,11 @@ iframe {
 .filters {
 	background-color:#e0e0e0;
 	padding: 10px 20px 20px 20px;
-	box-shadow: 0px 0px 1px 1px #e0e0e0;
+	box-shadow: 0 0 1px 1px #e0e0e0;
 }
 
 .twitter-share-button {
-	border: 0px;
+	border: 0;
 }
 
 #groups {
